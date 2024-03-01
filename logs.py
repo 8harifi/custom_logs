@@ -47,7 +47,6 @@ def clog(text: ..., _time: bool = True):
     """
     print(f"[{str(time.ctime(time.time()))}] {str(text)}")
 
-
 def cout(text: ..., _time: bool = True):
     """
     custom output function
